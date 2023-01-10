@@ -1,0 +1,164 @@
+body{
+    font-family: "Montserrat" ;
+    text-align: center;
+}
+
+h3,h1,h2{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+h1 {  
+    font-size: 3.5rem;  
+    line-height: 1.5; 
+}
+
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5re;
+}
+
+
+p{
+    color: grey;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+/* Navigation-Bar */
+
+.container-nav{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* Download-buttons */
+.download-button{
+    margin: 3% 5% 3% 0;
+}
+
+/* Title-Image */
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 6%;
+}
+
+/* Features */
+#features{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-icon{
+    padding: 0 40%;
+    color: #ef8712;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+.feature-item{
+    padding-bottom: 20px;
+}
+
+/* Testimonial Section */
+#testimonials{
+    background-color: #ef8712;
+    color: #fff;
+    position: relative;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+#press{
+    background-color: #ef8712;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+    padding: 10%;
+}
+
+.pricing-item{
+    padding: 3% 2%;
+}
+
+@media (max-width: 995px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
+
+/* CTA */
+#cta{
+    background-color: #ff4c68;
+}
+
+.h-cta{
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+
+.download-button-cta{
+    border-radius: 0;
+    margin: 45px 15px 0;
+}
+
+/* FOOTER */
+
+.footer-icon{
+    padding: 9px;
+    margin-bottom: 10px;
+}
